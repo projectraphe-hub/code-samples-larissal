@@ -6,7 +6,7 @@ Selected code samples from two projects demonstrating research methodology and s
 
 ## BIOS-MVP: Bayesian Health Tracking
 
-A health tracking iOS app (in alpha testing)with a Bayesian correlation engine for detecting relationships between interventions (supplements, behaviors) and health outcomes.
+A health tracking iOS app with a Bayesian correlation engine for detecting relationships between interventions (supplements, behaviors) and health outcomes.
 
 ### `bayesian_engine/correlation_detector.py`
 
@@ -17,7 +17,7 @@ Spurious correlation detection system that checks for:
 - Simpson's paradox
 - Insufficient variation
 
-This module reflects careful thinking about causal inference in observational health data.
+Built because health apps love to surface correlations without checking if they're real. This module catches false patterns before users see them.
 
 ---
 
@@ -33,3 +33,6 @@ Semantic diversity analysis using sentence embeddings to validate behavioral met
 
 Behavioral coding framework for analyzing LLM responses to researcher pushback. Implements argumentation quality scoring based on structured criteria.
 
+---
+
+Full project write-ups available upon request.
